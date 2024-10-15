@@ -1,0 +1,68 @@
+h1, h2, h3, legend {
+    font-family: 'Cinzel', serif;
+    font-weight: 700; 
+}
+
+#title {
+    font-size: 3em;
+    text-align: center;
+}
+
+.sub-title {
+    text-align: center;
+}
+
+.info-heading {
+    font-size: 2em;
+}
+
+body, p, ul li {
+    font-family: 'Crimson Pro', serif;
+    font-weight: 400;
+}
+
+body {
+    background-image: url(images/1227933.jpg);
+    background-size: cover; /* This ensures the image covers the entire background without distortion */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents tiling of the background */
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    border: 1px solid red;
+}
+
+#main {
+    background-color: rgba(238, 125, 125, 0.8); /* White background with 80% opacity */
+    padding: 20px;
+    margin: 50px auto; /* Centers the main container */
+    width: 80%; /* Adjust the width as needed */
+    max-width: 1200px; /* Maximum width for large screens */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* floating" effect */
+}
+
+fieldset {
+    border: 2px solid red; 
+    padding: 10px;
+    border-radius: 5px; 
+}
+
+#image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 100%;
+}
+
+#img-div {
+    border: none;
+    padding: 0;
+}
+
+figcaption {
+    text-align: center;
+}
